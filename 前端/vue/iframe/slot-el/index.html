@@ -1,0 +1,89 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      {{type}}
+      <todo-list :list="list" v-if="type == 'slotProps'">
+        <template #desc="prop">
+          <p>父组件拿到子组件的数据--Index:{{ prop.index }}</p>
+          <dd>{{ prop.item.description }}</dd>
+          <!-- {{$route.query.type}} -->
+        </template>
+      </todo-list>
+    </div>
+  </body>
+  <!-- 生产环境版本，优化了尺寸和速度 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script>
+    const router = new VueRouter({
+    })
+
+    // 全局组件
+    var todoList = {
+      template: '<ul><li v-for="(item,index) in list" :key="index"><title>{{item.title}}</title><slot :item="item" :index="index" name="desc"></slot></li></ul>',
+      props:{
+        list:{
+          type:Array,
+          default:[],
+        }
+      }
+    }
+    var app = new Vue({
+      router,
+      el: '#app',
+      data() {
+        return {
+          list:[
+          ]
+        }
+      },
+      created() {
+        for (let i = 0; i < 100; i++) {
+          this.list.push(
+            {
+              title:'prop of slot in Li',
+              description:'description-text,description-text,description-text,description-text'
+            })
+        }
+      },
+      methods:{
+      },
+      components:{
+        todoList
+      },
+      computed: {
+        type(){// slotProps
+          return this.$route.query.type
+        }
+      },
+    })
+  </script>
+  <style>
+  body{
+    background-color: #f6f6f8;;
+  }
+  ul{
+    width: 100%;
+  }
+  li{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  title{
+    color: #00d7c6;
+    display: inline-block;
+  }
+  </style>
+  </html>
+  

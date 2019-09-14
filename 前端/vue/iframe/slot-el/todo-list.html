@@ -1,0 +1,53 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        {{ message }}
+      </div>
+    </div>
+  </body>
+  <!-- 生产环境版本，优化了尺寸和速度 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script>
+    // 全局组件
+    Vue.component('todo-item', {
+      template: '<li>这是个待办项</li>'
+    })
+    var app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          message: 'cccc!',
+          event:{
+            say:"Hello!"
+          }
+        }
+      },
+      methods:{
+        onEventClick(val){
+          console.log(val);
+        },
+        event(){
+          return {
+            test:() => {
+
+            }
+          }
+        }
+      }
+    })
+  </script>
+  <style>
+  body{
+    background-color: #fff;
+  }
+  </style>
+  </html>
+  
