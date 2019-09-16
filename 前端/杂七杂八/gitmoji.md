@@ -48,3 +48,11 @@
 🔇 | `:mute:` | 删除日志
 👥 | `:busts_in_silhouette:` | 添加贡献者
 🚸 | `:children_crossing:` | 改善用户体验/可用性
+
+### vsCode插件
+
+Gitmoji Commit
+
+### Github
+
+[:art: gitmoji](https://github.com/carloscuesta/gitmoji)
