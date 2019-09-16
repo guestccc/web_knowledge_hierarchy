@@ -8,7 +8,6 @@
   </head>
   <body>
     <div id="app">
-      {{type}}
       <todo-list :list="list" v-if="type == 'slotProps'">
         <template #desc="prop">
           <p>父组件拿到子组件的数据--Index:{{ prop.index }}</p>
@@ -85,5 +84,5 @@
     display: inline-block;
   }
   </style>
-  </html>
+</html>
   
