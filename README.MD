@@ -25,7 +25,7 @@
 
 ---
 
-## 🔖工作经历
+## 👨‍💻工作经历
 
 <p align="right">2018.5-至今</p>
 
@@ -191,37 +191,15 @@ Cheersto商城是千色集团旗下，家庭正式制商超Cheersto齐是多的�
 #### 项目链接: (http://qs.cheersto.cn)[http://qs.cheersto.cn]
 ---
 
-## 🔖教育经历
+## 🏫教育经历
 
 
 
+<p align="right">2015-2018</p>
+
+<img style="width:60px;height:60px;margin-right:20px;object-fit:cover" align="left" src="https://ss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=223244093,690026767&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=1f4780ccb3c0ecbaefdc231fb8651054">
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
+广州城建职业学院
 
-<div class="label">时间管理</div>
-<div class="label">责任心</div>
-<div class="label">自驱动</div>
-<div class="label">执行力</div>
-<div class="label">抗压能力</div>
-</body>
-<style>
-.label{
-  display:inline-block;
-  padding:0 8px;
-  border:1px solid #5dd5c8;
-  border-radius:12px;
-  margin-left:12px;
-  height:24px;
-  line-height:24px;
-}
-</style>
-</html>
+大专 / 计算机应用技术(图片处理与网站开发)
