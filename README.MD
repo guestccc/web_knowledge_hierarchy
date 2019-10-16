@@ -1,6 +1,6 @@
 <h1 style="display:inline-block">陈程城</h1>/chengcheng chen
 
-<img align="right" style="margin-top:20px" src="https://doc.dankal.cn/logo_dankal.jpg"/>
+<img align="right" style="margin-top:20px;width:160px;height:160px;object-fit:cover" src="https://cdn.xaishop.com/Fu7jGw4Dq0hLM7T6vy7-nKeviM5C"/>
 
 <div><h3 style="display:inline-block">🔧WEB前端开发工程师</h3>/Web Front-end Development Engineer</div>
 
@@ -133,7 +133,7 @@ MHQ韩国智能订单是一款多语言的在线排队点餐系统 。有微信�
 * 第三方时间格式处理--dayjs
 * 小程序选用框架--mpvue
 
-#### 项目链接: (https://koreadc.dankal.cn)[https://koreadc.dankal.cn]
+#### 项目链接: [https://koreadc.dankal.cn](https://koreadc.dankal.cn)
 
 <p align="right">2019.04-至今</p>
 
@@ -188,7 +188,7 @@ Cheersto商城是千色集团旗下，家庭正式制商超Cheersto齐是多的�
 * 模块自测，逻辑优化，页面静态优化，修复bug
 * 项目后续维护
 
-#### 项目链接: (http://qs.cheersto.cn)[http://qs.cheersto.cn]
+#### 项目链接: [http://qs.cheersto.cn](http://qs.cheersto.cn)
 ---
 
 ## 🏫教育经历
