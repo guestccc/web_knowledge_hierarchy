@@ -247,3 +247,9 @@ Cheersto 商城是千色集团旗下，家庭正式制商超 Cheersto 齐是多�
 广州城建职业学院
 
 大专 / 计算机应用技术(图片处理与网站开发)
+
+<p align="right">2012-2015</p>
+
+<img width="80px" style="width:60px;height:60px;margin-right:20px;object-fit:cover" align="left" src="https://ss1.baidu.com/70cFfyinKgQFm2e88IuM_a/forum/pic/item/1c950a7b02087bf4e486515cf0d3572c11dfcf19.jpg">
+
+潮州市松昌中学
