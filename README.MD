@@ -33,7 +33,7 @@
 
 <p align="right">2018.5-至今</p>
 
-<img style="width:60px;margin-right:20px" align="left" src="https://doc.dankal.cn/logo_dankal.jpg">
+<img width="60px" style="width:60px;margin-right:20px" align="left" src="https://doc.dankal.cn/logo_dankal.jpg">
 
 
 深圳市蛋壳创意科技有限公司/技术部
@@ -201,7 +201,7 @@ Cheersto商城是千色集团旗下，家庭正式制商超Cheersto齐是多的�
 
 <p align="right">2015-2018</p>
 
-<img style="width:60px;height:60px;margin-right:20px;object-fit:cover" align="left" src="https://ss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=223244093,690026767&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=1f4780ccb3c0ecbaefdc231fb8651054">
+<img width="60px" style="width:60px;height:60px;margin-right:20px;object-fit:cover" align="left" src="https://ss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=223244093,690026767&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=1f4780ccb3c0ecbaefdc231fb8651054">
 
 
 广州城建职业学院
