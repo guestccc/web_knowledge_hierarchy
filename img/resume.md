@@ -2,8 +2,8 @@
 
 # 陈程城 /chengcheng chen
 
-<img align="right" width="80px" style="margin-top:20px;width:100px;" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/head.jpg?raw=true" onerror="scr='./head.jpg"/>
-<!-- <img align="right" width="80px" style="margin-top:20px;" src="./head.jpg"/> -->
+<!-- <img align="right" width="80px" style="margin-top:20px;width:100px;" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/head.jpg?raw=true" onerror="scr='./head.jpg"/> -->
+<img align="right" width="80px" style="margin-top:20px;" src="./head.jpg"/>
 
 <!-- <div><h3 style="display:inline-block">🔧WEB前端开发工程师</h3>/Web Front-end Development Engineer</div> -->
 
@@ -47,9 +47,9 @@ web 前端
 
 <p align="right">2017.11-2018.1</p>
 
-<img width="80px" style="width:60px;margin-right:20px" align="left" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/e.jpg?raw=true">
+<!-- <img width="80px" style="width:60px;margin-right:20px" align="left" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/e.jpg?raw=true"> -->
 
-<!-- <img width="80px" style="width:60px;margin-right:20px" align="left" src="./e.jpg"> -->
+<img width="80px" style="width:60px;margin-right:20px" align="left" src="./e.jpg">
 
 广州 e 职多人力资源服务有限公司／运营部
 
@@ -59,10 +59,8 @@ web 前端
 
 - 运营部图片素材设计
 - 公司宣传册设计
-- app 启动项设计
-- banner 图设计
-- 海报设计
-- 传单设计
+- app 启动项设计、banner 图设计
+- 海报设计、传单设计
 - 参与运营事务
 
 ---
@@ -198,12 +196,9 @@ Cheersto 商城是千色集团旗下，家庭正式制商超 Cheersto 齐是多�
 - 根据设计图，进行移动网页的静态加渲染
 - 封装文件上传逻辑 mixin，图片上传组件，用于用户表单提交页面，封装商品列表项，商家列表项，订单列表项等等用于各列表页面复用，封装全局过滤器，用于图片预览，时间格式处理,封装或修改全局工具类，处理 cookie 存取，倒计时逻辑等等，封装处理 gps+ip 定位插件...
 - 根据需求，编写各模块业务逻辑程序
-- 模块自测，逻辑优化，页面静态优化，修复 bug
-- 项目后续维护
 
 #### 第三方:
 
-- ui 框架 cube-ui
 - 第三方对象存储七牛云
 - 服务端渲染框架 nuxt.js---spa 模式
 - 第三方富文本插件--quill
@@ -225,7 +220,6 @@ Cheersto 商城是千色集团旗下，家庭正式制商超 Cheersto 齐是多�
 - 封装权限管理逻辑，封装文件上传逻辑 mixin，图片上传组件，视频上传组件，富文本组件，用于各表单页面，封装表格分页组件，用于各列表页面复用，封装全局过滤器，用于图片预览，页面文字信息、时间格式处理
 - 根据需求，编写各模块业务逻辑程序
 - 模块自测，逻辑优化，页面静态优化，修复 bug
-- 项目后续维护
 
 #### 第三方:
 
