@@ -2,8 +2,8 @@
 
 # 陈程城 /chengcheng chen
 
-<!-- <img align="right" width="80px" style="margin-top:20px;width:100px;" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/head.jpg?raw=true" onerror="scr='./head.jpg"/> -->
-<img align="right" width="80px" style="margin-top:20px;" src="./head.jpg"/>
+<img align="right" width="80px" style="margin-top:20px;width:80px;" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/head.jpg?raw=true" onerror="scr='./head.jpg"/>
+<!-- <img align="right" width="80px" style="margin-top:20px;" src="./head.jpg"/> -->
 
 <!-- <div><h3 style="display:inline-block">🔧WEB前端开发工程师</h3>/Web Front-end Development Engineer</div> -->
 
@@ -47,9 +47,9 @@ web 前端
 
 <p align="right">2017.11-2018.1</p>
 
-<!-- <img width="80px" style="width:60px;margin-right:20px" align="left" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/e.jpg?raw=true"> -->
+<img width="80px" style="width:60px;margin-right:20px" align="left" src="https://github.com//guestccc/web_knowledge_hierarchy/blob/ccc/img/e.jpg?raw=true">
 
-<img width="80px" style="width:60px;margin-right:20px" align="left" src="./e.jpg">
+<!-- <img width="80px" style="width:60px;margin-right:20px" align="left" src="./e.jpg"> -->
 
 广州 e 职多人力资源服务有限公司／运营部
 
