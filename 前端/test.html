@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="parent"></div>
+  <img src="" alt="">
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+  <div class="box-flex box">
+    <div class="box-child">display:flex</div>
+  </div>
+  <div class="box-position box">
+    <div class="box-child --first">position1</div>
+  </div>
+  <div class="box-position box">
+    <div class="box-child --second">position2</div>
+  </div>
+  <div class="box-position box">
+    <div class="box-child --thirdly">position3</div>
+  </div>
+  <div class="box-grid box">
+    <div class="box-child box-grid-child">grid</div>
+  </div>
+  <div class="box-vertical box">
+    <div class="box-child box-vertical-child">vertical</div>
+  </div>
+</body>
+<style>
+  .parent{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    overflow: hidden;
+    background-color: aqua;
+  }
+  .child{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: red;
+  }
+
+  .box{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+  }
+  .box-child{
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+  }
+
+  .box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-position{
+    position: relative;
+  }
+  .--first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .--second{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+  .--thirdly{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  .box-grid{
+    display: grid;
+  }
+  .box-grid-child{
+    justify-self: center;
+    align-self: center;
+  }
+
+  .box-vertical{
+    font-size: 0;
+    text-align: center;
+  }
+  .box-vertical::before{
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  .box-vertical-child{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+</style>
+</html>
