@@ -35,23 +35,28 @@
 
 - es6💥💥
 
-### 前端工程化
+- 编码规范🎉💥
 
-- [webpack⬇🎉](https://time.geekbang.org/course/intro/190)
+### [前端工程化](./规划文档/前端工程化.md)🎉
+
+- [webpack🎉](https://time.geekbang.org/course/intro/190)
 
 - 类似 vue-cli 这种定制化的终端程序
 
 ### [vue](./规划文档/vue.md)
 
-vue 性能优化
+- nuxt.js服务端渲染方案💥
 
-vue 源码拜读
+- vue 性能优化
+
+- vue 源码拜读
 
 > 通过编写测试用例，模拟用户操作，减少重复调试的压力，保证程序数据传输流如预期
 
 ### node.js💥
 
 - express💥
+
 - koa
 
 ## 2020 年学习
@@ -80,4 +85,4 @@ vue 源码拜读
 
 - e2e 端对端测试
 
-### react
+### React
