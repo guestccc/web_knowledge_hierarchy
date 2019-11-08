@@ -31,6 +31,8 @@
   <div class="box-vertical box">
     <div class="box-child box-vertical-child">vertical</div>
   </div>
+  <h2>逐帧动画</h2>
+  <div class="donghua"></div>
 </body>
 <style>
   .parent{
@@ -114,5 +116,77 @@
     display: inline-block;
     vertical-align: middle;
   }
+
+    @keyframes test-animation {
+        from {
+            background-image: url('./assect/5af1c1a6347a1919a47b1421.jpg');
+            background-size: cover;
+        }
+
+        1% {
+            background-image: url('./assect/5af1c1a6347a1945ff391bf2.jpg');
+            background-size: cover;
+        }
+        2% {
+            background-image: url('./assect/3jpg.jpg');
+            background-size: cover;
+        }
+        3% {
+            background-image: url('./assect/4jpg.jpg');
+            background-size: cover;
+        }
+        4% {
+            background-image: url('./assect/5jpg.jpg');
+            background-size: cover;
+        }
+        5% {
+            background-image: url('./assect/6jpg.jpg');
+            background-size: cover;
+        }
+        6% {
+            background-image: url('./assect/7jpg.jpg');
+            background-size: cover;
+        }
+        7% {
+            background-image: url('./assect/8.jpg');
+            background-size: cover;
+        }
+        8% {
+            background-image: url('./assect/9.jpg');
+            background-size: cover;
+        }
+        9% {
+            background-image: url('./assect/10.jpg');
+            background-size: cover;
+        }
+        10% {
+            background-image: url('./assect/11.jpg');
+            background-size: cover;
+        }
+        11% {
+            background-image: url('./assect/12.jpg');
+            background-size: cover;
+        }
+        12% {
+            background-image: url('./assect/13.jpg');
+            background-size: cover;
+        }
+        13% {
+            background-image: url('./assect/14.jpg');
+            background-size: cover;
+        }
+        to {
+            background-image: url('./assect/15.jpg');
+            background-size: cover;
+        }
+    }
+
+    .donghua {
+        width: 100vw;
+        height: 100vh;
+        background: gray;
+
+        animation: test-animation 15s steps(1) 0s 1 normal forwards;
+    }
 </style>
 </html>
