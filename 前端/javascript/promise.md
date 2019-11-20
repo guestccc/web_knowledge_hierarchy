@@ -6,6 +6,7 @@
 
 promise(async/awiat)--保持代码整洁
 
+async/awiat generator的语法糖，对generator的改进，其实就是内置了执行器（xx.next()）
 
 ```js
 function a (back,name){
