@@ -47,6 +47,10 @@ Vue.filter('toFixed', (value, accuracy = 2) => Math.floor(value * (10 ** accurac
 function toFixed(value,accuracy = 2){
   return Math.floor(value * (10 ** accuracy) + 0.5) / (10 ** accuracy)
 }
+function toFixed(value,accuracy = 2){
+  return Math.floor(value * (10 ** accuracy) + 0.5) / (10 ** accuracy)
+  return Math.round(value * 10 ** accuracy) / 10 ** accuracy
+}
 
 toFixed(1.335,2)
 ```
