@@ -9,9 +9,10 @@
 
 ### WEB 前端开发工程师
 
-<img align="center" style="width:18px;margin-right:3px;" src="https://github.githubassets.com/favicon.ico"/>  [guestCcc](https://github.com/guestccc)
+<img align="center" style="width:18px;margin-right:3px;" src="https://github.githubassets.com/favicon.ico"/>  [guestCcc](https://github.com/guestccc) -- `https://github.com/guestccc`
 
-📄 [blog](https://blog.jschen.cc)
+📄 [JSChen](https://blog.jschen.cc) -- `https://blog.jschen.cc`
+
 
 💌 1009078602@qq.com
 
@@ -33,8 +34,12 @@
 - 熟悉 `Vue.js` 
 - 熟悉 `Vue.js` 服务端渲染方案 `Nuxt.js` 的使用；
 - 熟悉 `JavaScript` 基础
-- 了解 `webpack` 使用和优化
+- 熟悉微信小程序开发
+- 熟悉 `git` 工作流
+- 掌握 `docker`,`nginx`,`jenkins`
+- 了解 `webpack` 使用
 - 了解 `node.js` 及相关技术的使用
+- 了解网络性能优化
 - 了解计算机网络
 
 
@@ -62,6 +67,8 @@
 
 ### 个人博客[JSChen](https://blog.jschen.cc)
 
+https://blog.jschen.cc
+
 #### 博客描述
 
 - 记录自己的学习足印，把学过的知识，遇到的问题整理成文档，有利于巩固知识，了解自己的能力，明白自己在哪方面还需要多多努力
@@ -81,6 +88,14 @@
 
 &emsp;&emsp;模板项目是用于搭建所有项目的一个源模板，封装一些常用工具函数，常用的主题模板，常用组件，常用插件
 
+#### 项目技术：
+
+- `Vue`
+- `Vue / Nuxt.js`
+- `webpack`
+- `express`
+- `element-ui`
+- `cube-ui`
 
 #### 责任描述：
 
@@ -103,14 +118,24 @@
 
 #### 项目技术：
 
-`Vue / Nuxt.js `
+- `Vue / Nuxt.js`
+- `express`
+- `element-ui`
+- `cube-ui`
 
 #### 责任描述：
 
-- 引入一个 `vue-responsive` 插件来做这个响应式
+- 根据需求，进行模块的划分，使用 `scss` 作为 `css` 模块重用的方案，处理全局复用主题颜色、主题字体字号、主题文本风格展示、主题按钮风格等等
+- 整个项目的静态
+- `realme` 数据接口
+- 每日项目进度的上报
+
+#### 项目核心
 
 - 由于这个项目是一个活动项目，后期需要做 `seo` ，而 `Vue.js` 本身是浏览器端渲染的模式，先拿到所有的资源文件，然后再在特定生命周期去调用接口获取数据，然后再渲染页面，白屏的时间过长，所以这个项目引入了一个 `ssr` 服务端渲染框架 `Nuxt.js` , 现在项目部署所在服务端去跑一个 `node` 服务，通过在服务端提前获取数据，再通过一个 `vue-server-renderer` 这个核心库去渲染出一个一个 `html` 返回给浏览器，大大的减少白屏的时间，并且 `html` 中有一定的内容供搜索引擎抓取，有利于后期的 `seo` 优化
-- 根据需求，进行模块的划分，使用 `scss` 作为 `css` 模块重用的方案，处理全局复用主题颜色、主题字体字号、主题文本风格展示、主题按钮风格等等
+- 由于项目需要做到 pc 端和 mobile 端，并且功能模块，业务逻辑相同，只是部分控件 ui 有所区别，所以是引入一个 `vue-responsive` 插件来做这个响应式的处理
+- 引入  `vue-i18n` 处理国际化需求，划分业务模块，元素，修饰，避免引入国际化后造成的 `template` 内容混乱
+
 
 
 <p align="right">2019.07-2020.03</p>
@@ -123,16 +148,28 @@
 
 #### 项目技术：
 
-`Vue / Nuxt.js 、 mpvue`
-
-
+- `Vue / Nuxt.js`
+- `vuex`
+- `vue-i18n`
+- `express`
+- `cube-ui`
+- `mpvue`
 
 #### 责任描述：
 
-- 负责整个项目的数据渲染，微信公众号端采用的 `Vue.js` 的服务渲染框架 `Nuxt.js`的spa模式
-- 通过 `node.js` 服务端框架 `express` 做一个中间件，在中间层实现微信登录
-- 引入第三方插件 `axios-jsonp` 插件处理 web 端对接外服物流跨域问题
-- 引入  `vue-i18n` 处理国际化需求
+- `mobile` 端网页和小程序端的数据的渲染
+- 项目自测
+- bug 修复
+- 项目维护
+
+#### 项目核心
+
+- `mobile` 端网页采用的 `Vue.js` 的服务渲染框架 `Nuxt.js`的spa模式
+- `mobile` 端网页需要在中间层区分用户所在客户端环境，对微信访问的用户做一层权限校验
+- 采用既有的 `jsonp` 方案而不是 `node` 代理，通过 `axios` 的一个 `adapter` 选项，引入  `axios-jsonp` 插件处理 web 端处理对接外服物流的一个跨域请求
+- 引入谷歌地图，需要对商家数据图标在地图相应座标上进行绘制
+- 引入  `vue-i18n` 处理国际化需求，划分业务模块，元素，修饰，避免引入国际化后造成的 `template` 内容混乱
+- 使用 `vuex` 状态管理组织一个餐厅模块的前端购物车
 
 
 <p align="right">2019.04-2020.03</p>
@@ -143,13 +180,24 @@
 
 &emsp;&emsp;亚米里亚是一款集商城、活动、少儿教育一体的微信公众号网页项目 。有微信公众号网页用户端、微信公众号网页商家端、微信公众号网页分销端、pc 后台管理端、pc 后台管理端项目
 
+#### 项目技术：
+
+- `Vue / Nuxt.js`
+- `express`
+- `cube-ui`
+
 #### 责任描述：
+
+- 1.0 版本数据渲染
+- 2.0 -- 5.0 产品迭代的维护
+- 抽取封装项目复用的业务组件
+
+#### 项目核心
 
 - 负责整个项目的数据渲染，微信公众号端采用的 `Vue.js` 的服务渲染框架 `Nuxt` 的 `spa` 模式
 - 通过 `node.js` 服务端框架 `express` 做一个中间件，在中间层实现微信登录
-- 引入 `html2canvas` 插件，利用 `DOM` 转 `canvas` ，长按保存图片，解决微信浏览器保存图片问题
+- 引入 `html2canvas` 插件，利用 `DOM` 转 `canvas` ，长按保存图片，实现一个保存当前海报的功能
 - 利用 `cube-scroll` 组件加 `nuxt-child` 组件封装 `nuxt-keep-alive` 插件根据需求保持组件的状态
-
 
 <!-- 
 <p align="right">2018.08-2018.10</p>
